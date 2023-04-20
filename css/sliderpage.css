@@ -1,0 +1,125 @@
+body.dark-skin #celular-hidden #celular{
+    background-color: #3c3c3c !important;
+    box-shadow: 0 0 3px #141414 !important;
+}
+#celular{
+    position: relative;
+    z-index: 1;
+    padding-right:24px;
+    padding-left: 24px;
+    background: #cacaca;
+    margin: 0;
+    padding: 7px 0;
+    -webkit-transform: none;
+    box-shadow: 0 0 3px #cacaca;
+    border-bottom: 5px solid #F88C00;
+}
+        .jssorb03 {
+            position: absolute;
+        }
+        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 21px;
+            height: 21px;
+            text-align: center;
+            line-height: 21px;
+            color: white;
+            font-size: 12px;
+            background-color: #000;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .jssorb03 div {
+            background-position: -5px -4px;
+        }
+        .jssorb03 div:hover, .jssorb03 .av:hover {
+            background-position: -35px -4px;
+        }
+        .jssorb03 .av {
+            background-position: -65px -4px;
+        }
+        .jssorb03 .dn, .jssorb03 .dn:hover {
+            background-position: -95px -4px;
+        }
+        /* jssor slider arrow navigator skin 03 css */
+
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        .jssora03l.jssora03ldn      (disabled)
+        .jssora03r.jssora03rdn      (disabled)
+        */
+
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            top: 70px !important;
+            cursor: pointer;
+            font-size: 82px;
+            color: #000;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .jssora03l {
+            background-position: -3px -33px;
+        }
+        .jssora03r {
+            background-position: -63px -33px;
+        }
+        .jssora03l:hover {
+            background-position: -123px -33px;
+        }
+        .jssora03r:hover {
+            background-position: -183px -33px;
+        }
+        .jssora03l.jssora03ldn {
+            background-position: -243px -33px;
+        }
+        .jssora03r.jssora03rdn {
+            background-position: -303px -33px;
+        }
+        .jssora03l.jssora03lds {
+            background-position: -3px -33px;
+            opacity: .3;
+            pointer-events: none;
+        }
+        .jssora03r.jssora03rds {
+            background-position: -63px -33px;
+            opacity: .3;
+            pointer-events: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .slidermovil {
+                width: 100% !important;
+                height:394px !important;
+            
+            }
+            .ancho {
+                width: 100% !important;
+                padding-bottom: 5px;
+    			padding-top: 5px;
+            
+            }
+            #wrapper .breaking-news, #wrapper.boxed-all .breaking-news {
+                    width: 100% !important;
+            }
+        }
+        @media only screen and (max-width: 900px) {
+          #wrapper .breaking-news, #wrapper.boxed-all .breaking-news {
+                    width: 100% !important;
+            }  
+        }
